@@ -23,7 +23,7 @@ Angular Material Schematics used to create the navigation component.
 
 ## Screenshots
 
-![Example screenshot](./img/sidenav.png)
+![Example screenshot](./img/side-nav.png)
 
 ## Technologies
 
@@ -31,9 +31,9 @@ Angular Material Schematics used to create the navigation component.
 
 * [Angular framework v7.2.15](https://angular.io/)
 
-* [Angular Material](https://material.angular.io/)
+* [Angular Material v7.3.7](https://material.angular.io/)
 
-* [Angular Material Schematics](https://material.angular.io/guide/schematics)
+* [Angular Material Schematics v7.3.9](https://material.angular.io/guide/schematics)
 
 ## Setup
 
