@@ -27,13 +27,13 @@ Angular Material Schematics used to create the navigation component.
 
 ## Technologies
 
-* [Angular CLI v7.3.9](https://github.com/angular/angular-cli)
+* [Angular CLI v8.0.2](https://github.com/angular/angular-cli)
 
-* [Angular framework v7.2.15](https://angular.io/)
+* [Angular framework v8.0.0](https://angular.io/)
 
-* [Angular Material v7.3.7](https://material.angular.io/)
+* [Angular Material v8.0.0](https://material.angular.io/)
 
-* [Angular Material Schematics v7.3.9](https://material.angular.io/guide/schematics)
+* [Angular Material Schematics v8.0.0](https://material.angular.io/guide/schematics)
 
 ## Setup
 
@@ -41,7 +41,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code Examples
 
-* `navigation.component.ts` nav component showing use of observable isHandset that is set true of false and controls if sidebar menu open or closed
+* `navigation.component.ts` nav component showing use of observable isHandset that is set true or false and controls if sidebar menu open or closed
 
 ```typescript
 export class NavigationComponent {
@@ -62,7 +62,7 @@ export class NavigationComponent {
 
 ## Status & To-Do List
 
-* Status: working app that shows a sidebar.
+* Status: Working.
 
 * To-Do: experiment and add functionality
 
