@@ -27,12 +27,8 @@ Angular Material Schematics used to create the navigation component.
 
 ## Technologies
 
-* [Angular CLI v8.0.2](https://github.com/angular/angular-cli)
-
 * [Angular framework v8.0.0](https://angular.io/)
-
 * [Angular Material v8.0.0](https://material.angular.io/)
-
 * [Angular Material Schematics v8.0.0](https://material.angular.io/guide/schematics)
 
 ## Setup
