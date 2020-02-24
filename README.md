@@ -27,13 +27,12 @@ Angular Material Schematics used to create the navigation component.
 
 ## Technologies
 
-* [Angular framework v8.0.0](https://angular.io/)
-* [Angular Material v8.0.0](https://material.angular.io/)
-* [Angular Material Schematics v8.0.0](https://material.angular.io/guide/schematics)
+* [Angular framework v9.1.0](https://angular.io/)
+* [Angular Material v9.0.0](https://material.angular.io/)
 
 ## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm i` to install dependencies. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code Examples
 
@@ -54,13 +53,14 @@ export class NavigationComponent {
 
 ## Features
 
-* sidebar collapses to burger when screen < 600px
+* sidebar collapses to burger when screen width < 960px (small tablet handset). App doesn't do much else - just demonstrates @angular breakpointObserver.
+* [Breakpoint system](https://material.io/design/layout/responsive-layout-grid.html#breakpoints) used to decide when top menu goes to side menu burger. [Angular breakpoints using the Material design system explained here](https://material.angular.io/cdk/layout/overview).
 
 ## Status & To-Do List
 
-* Status: Working.
+* Status: Updated to Angular 9. Working.
 
-* To-Do: experiment and add functionality
+* To-Do: experiment and add functionality. burger menu appears at the tablet setting of 960px, although the Handset breakpoint is used. Worth investigating why this is.
 
 ## Inspiration
 
