@@ -1,40 +1,42 @@
-# Angular Material Nav
+# :zap: Angular Material Nav
 
 Angular app using [Angular Material](https://material.angular.io/) and [Angular Material Schematics](https://material.angular.io/guide/schematics) to create a responsive side navigation menu.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Material Nav](#zap-angular-material-nav)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
-Sidenav menu is hidden at a screen width of 600px or less using a break-point `isHandset$` as an observable.
+* Sidenav menu is hidden at a screen width of 600px or less using a break-point `isHandset$` as an observable.
+* Angular Material Schematics used to create the navigation component.
 
-Angular Material Schematics used to create the navigation component.
-
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/side-nav.png)
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular framework v9.1.0](https://angular.io/)
-* [Angular Material v9.0.0](https://material.angular.io/)
+* [Angular framework v9](https://angular.io/)
+* [Angular Material v9](https://material.angular.io/)
 
-## Setup
+## :floppy_disk: Setup
 
-Run `npm i` to install dependencies. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `npm i` to install dependencies. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code Examples
+## :computer: Code Examples
 
 * `navigation.component.ts` nav component showing use of observable isHandset that is set true or false and controls if sidebar menu open or closed
 
@@ -51,21 +53,20 @@ export class NavigationComponent {
 }
 ```
 
-## Features
+## :cool: Features
 
 * sidebar collapses to burger when screen width < 960px (small tablet handset). App doesn't do much else - just demonstrates @angular breakpointObserver.
 * [Breakpoint system](https://material.io/design/layout/responsive-layout-grid.html#breakpoints) used to decide when top menu goes to side menu burger. [Angular breakpoints using the Material design system explained here](https://material.angular.io/cdk/layout/overview).
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
-* Status: Updated to Angular 9. Working.
+* Status: Working. Updated to latest Angular 9 and all dependencies updated
+* To-Do: Nothing
 
-* To-Do: experiment and add functionality. burger menu appears at the tablet setting of 960px, although the Handset breakpoint is used. Worth investigating why this is.
-
-## Inspiration
+## :clap: Inspiration
 
 * [Medium article by Ahmed Abouzied: Angular Material Responsive Navigation](https://medium.com/@ahmedaabouzied/angular-material-responsive-navigation-53b573305d3d)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
