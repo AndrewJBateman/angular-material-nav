@@ -26,15 +26,18 @@ Angular app using [Angular Material](https://material.angular.io/) and [Angular 
 ## :camera: Screenshots
 
 ![Example screenshot](./img/side-nav.png)
+![Example screenshot](./img/mobile.png)
 
 ## :signal_strength: Technologies
 
-* [Angular framework v9](https://angular.io/)
-* [Angular Material v9](https://material.angular.io/)
+* [Angular framework v10](https://angular.io/)
+* [Angular Material v10](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* To deploy to Github, in angular.json file change output directory to 'docs'
+* Run `ng build --prod --baseHref="https://github.com/AndrewJBateman/angular-material-nav/` then commit to Github as usual
 
 ## :computer: Code Examples
 
@@ -60,7 +63,7 @@ export class NavigationComponent {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated to latest Angular 9 and all dependencies updated
+* Status: Working. Updated to latest Angular 10 and all dependencies updated
 * To-Do: Nothing
 
 ## :clap: Inspiration
