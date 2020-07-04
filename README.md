@@ -1,6 +1,6 @@
 # :zap: Angular Material Nav
 
-Angular app using [Angular Material](https://material.angular.io/) and [Angular Material Schematics](https://material.angular.io/guide/schematics) to create a responsive side navigation menu.
+Angular app using [Angular Material](https://material.angular.io/) & [Angular Material Schematics](https://material.angular.io/guide/schematics) to create a responsive side navigation menu.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
