@@ -69,7 +69,7 @@ export class NavigationComponent {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated to latest Angular 10 and all dependencies updated
+* Status: Working. Updated may 2021
 * To-Do: Nothing
 
 ## :clap: Inspiration
