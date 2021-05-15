@@ -1,9 +1,13 @@
 # :zap: Angular Material Nav
 
 * Angular app using [Angular Material](https://material.angular.io/) & [Angular Material Schematics](https://material.angular.io/guide/schematics) to create a responsive side navigation menu.
-* Tutorial code from [article by Ahmed Abouzied](https://medium.com/@ahmedaabouzied/angular-material-responsive-navigation-53b573305d3d) - see [:clap: Inspiration](#clap-inspiration) below
+* Updated Tutorial code from [article by Ahmed Abouzied](https://medium.com/@ahmedaabouzied/angular-material-responsive-navigation-53b573305d3d) - see [:clap: Inspiration](#clap-inspiration) below
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-material-nav?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-material-nav?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-material-nav?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-material-nav?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -17,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -31,8 +36,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v11](https://angular.io/)
-* [Angular Material v11](https://material.angular.io/)
+* [Angular framework v12](https://angular.io/)
+* [Angular Material v12](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -71,6 +76,10 @@ export class NavigationComponent {
 
 * [Medium article by Ahmed Abouzied: Angular Material Responsive Navigation](https://medium.com/@ahmedaabouzied/angular-material-responsive-navigation-53b573305d3d)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
