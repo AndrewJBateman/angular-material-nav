@@ -36,12 +36,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v12](https://angular.io/)
+* [Angular v13](https://angular.io/) JS framework
 * [Angular Material v12](https://material.angular.io/)
 
 ## :floppy_disk: Setup
 
-* Run `npm i` to install dependencies. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `npm i` to install dependencies. Run `ng serve` for a dev server.
+* Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 * To deploy to Github, in angular.json file change output directory to 'docs'
 * Run `ng build --prod --baseHref="https://github.com/AndrewJBateman/angular-material-nav/` then commit to Github as usual
 
@@ -69,7 +70,7 @@ export class NavigationComponent {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021
+* Status: Working.
 * To-Do: Nothing
 
 ## :clap: Inspiration
