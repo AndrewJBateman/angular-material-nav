@@ -25,9 +25,10 @@
 
 ## :books: General info
 
-* Sidenav menu is hidden at a screen width of 600px or less using a break-point `isHandset$` as an observable.
-* Angular Material Schematics used to create the navigation component.
-
+* Sidenav menu with profile image and menu options is shown on lhs when in full-screen mode (>700px - tablet size). Otherwise it is hidden and only shows when the burger menu icon is pressed
+* Sidenav menu is hidden at a screen width of 700px or less using an observable to compare 700px with actual screen width - see Code Example below
+* Profile image is a random female facial image that changes each time app is started or refreshed
+* [AfterViewInit interface lifecycle hook](https://angular.io/api/core/AfterViewInit) used once components view is instatiated
 
 ## :camera: Screenshots
 
@@ -47,7 +48,7 @@
 * Run `npm i` to install dependencies. Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 * To deploy to Github, in angular.json file change output directory to 'docs'
-* Run `ng build --prod --baseHref="https://github.com/AndrewJBateman/angular-material-nav/` then commit to Github as usual
+* Run `ng build --prod --baseHref="https://github.com/AndrewJBateman/angular-material-nav/"` then commit to Github as usual
 
 ## :computer: Code Examples
 
@@ -75,8 +76,8 @@ ngAfterViewInit() {
 
 ## :cool: Features
 
-* sidebar collapses to burger when screen width < 960px (small tablet handset). App doesn't do much else - just demonstrates @angular breakpointObserver.
-* [Angular breakpoints using the Material design system explained here](https://material.angular.io/cdk/layout/overview).
+* sidebar collapses to burger when screen width < 700px (small tablet). App doesn't do much else - just demonstrates @angular breakpointObserver.
+* [Angular breakpoints using the Material design system explained here](https://material.angular.io/cdk/layout/overview)
 
 ## :clipboard: Status & To-Do List
 
