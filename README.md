@@ -36,8 +36,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/) JS framework
-* [Angular Material v13](https://material.angular.io/)
+* [Angular v14-rc1](https://angular.io/) JS framework
+* [Angular Material v14-rc1](https://material.angular.io/)
 * [Material Design Screen breakpoints](https://material.io/design/layout/responsive-layout-grid.html#breakpoints) & [Angular Breakpoint state](https://material.angular.io/cdk/layout/api) used to determine when side menu appears
 * [Angular Material Sidenav](https://material.angular.io/components/sidenav/overview) modes are default 'over', 'side' and 'push'. Accessibility: add role attribute
 * [Angular Material Icons](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/) list of icons, categorized but not searchable
@@ -45,7 +45,8 @@
 
 ## :floppy_disk: Setup
 
-* Run `npm i` to install dependencies. Run `ng serve` for a dev server.
+* Run `npm i` to install dependencies.
+* Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 * To deploy to Github, in angular.json file change output directory to 'docs'
 * Run `ng build --prod --baseHref="https://github.com/AndrewJBateman/angular-material-nav/"` then commit to Github as usual
