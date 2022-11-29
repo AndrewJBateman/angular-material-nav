@@ -46,6 +46,7 @@
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies.
+* Create [Unsplash account]((https://unsplash.com/developers)) and paste API key in `environment.ts`
 * Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 * To deploy to Github, in angular.json file change output directory to 'docs'
