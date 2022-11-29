@@ -13,8 +13,9 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
     <img
+      *ngIf="imageData$ | async as imageData"
       class="avatar mat-elevation-z8"
-      src="https://source.unsplash.com/random/200x200/?female,face"
+      [src]="imageData.body.urls.small"
     />
     <h4 class="name">Laura Croft</h4>
     <p class="title">Lift Engineer</p>
