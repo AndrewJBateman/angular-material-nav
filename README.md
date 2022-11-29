@@ -11,16 +11,16 @@
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular Material Nav](#zap-angular-material-nav)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:page\_facing\_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:signal\_strength: Technologies](#signal_strength-technologies)
+  * [:floppy\_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clipboard: Status \& To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
-  * [:file_folder: License](#file_folder-license)
+  * [:file\_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -28,7 +28,7 @@
 * Sidenav menu with profile image and menu options is shown on lhs when in full-screen mode (>700px - tablet size). Otherwise it is hidden and only shows when the burger menu icon is pressed
 * Sidenav menu is hidden at a screen width of 700px or less using an observable to compare 700px with actual screen width - see Code Example below
 * Profile image is a random female facial image that changes each time app is started or refreshed
-* [AfterViewInit interface lifecycle hook](https://angular.io/api/core/AfterViewInit) used once components view is instatiated
+* [AfterViewInit interface lifecycle hook](https://angular.io/api/core/AfterViewInit) used once components view is instantiated
 
 ## :camera: Screenshots
 
@@ -41,7 +41,7 @@
 * [Material Design Screen breakpoints](https://material.io/design/layout/responsive-layout-grid.html#breakpoints) & [Angular Breakpoint state](https://material.angular.io/cdk/layout/api) used to determine when side menu appears
 * [Angular Material Sidenav](https://material.angular.io/components/sidenav/overview) modes are default 'over', 'side' and 'push'. Accessibility: add role attribute
 * [Angular Material Icons](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/) list of icons, categorized but not searchable
-* [Unsplash random face image](https://awik.io/generate-random-images-unsplash-without-using-api/) used for profile
+* [Unsplash random face image](https://unsplash.com/developers) used for profile
 
 ## :floppy_disk: Setup
 
