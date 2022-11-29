@@ -36,8 +36,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14-rc1](https://angular.io/) JS framework
-* [Angular Material v14-rc1](https://material.angular.io/)
+* [Angular v15](https://angular.io/) JS framework
+* [Angular Material v15](https://material.angular.io/)
 * [Material Design Screen breakpoints](https://material.io/design/layout/responsive-layout-grid.html#breakpoints) & [Angular Breakpoint state](https://material.angular.io/cdk/layout/api) used to determine when side menu appears
 * [Angular Material Sidenav](https://material.angular.io/components/sidenav/overview) modes are default 'over', 'side' and 'push'. Accessibility: add role attribute
 * [Angular Material Icons](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/) list of icons, categorized but not searchable
