@@ -46,11 +46,10 @@
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies.
-* Create [Unsplash account]((https://unsplash.com/developers)) and paste API key in `environment.ts`
+* Create [Unsplash account](https://unsplash.com/developers) and paste API key in `environment.ts`
 * Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* To deploy to Github, in angular.json file change output directory to 'docs'
-* Run `ng build --prod --baseHref="https://github.com/AndrewJBateman/angular-material-nav/"` then commit to Github as usual
+* `npm run build` to create build file with Ahead of Time (AOT) compilation. Source map explorer set to false
 
 ## :computer: Code Examples
 
